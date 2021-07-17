@@ -1,12 +1,12 @@
-import React from 'react';
-import ViewCards from './ViewCards';
-import ReviewCards from './ReviewCards';
-import CreateCard from './CreateCard';
-import Nav from './Nav';
-import UpdateCard from './UpdateCard';
-import { ContextProvider } from '../Context/Context.js';
+import React, { Component } from 'react';
+import ViewCards from './view-cards';
+import ReviewCards from './review-cards';
+import CreateCard from './create-card';
+import Nav from './nav';
+import UpdateCard from './update-card';
+import { ContextProvider } from '../Context/context';
 
-export default class App extends React.Component {
+export default class App extends Component {
   constructor(props){
     super(props);
     this.state = {
